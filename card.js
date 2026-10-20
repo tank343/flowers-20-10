@@ -3,9 +3,9 @@
 
   const STORAGE_KEY = 'flower.greeting.20-10.v1';
   const defaultGreeting = {
-    recipient: 'bạn',
+    recipient: 'vợ yêu thối',
     message: 'Nhân ngày Phụ nữ Việt Nam 20/10, chúc vợ thối luôn khỏe mạnh, hạnh phúc và có thật nhiều niềm vui. Học tập giỏi giỏi cố gắng đạt được nhiều thứ luon.\n\n Và toi cũng sẽ yêu yêu để ý qtam nhiều hơn nứa nhờ, cho i ăn tẩm bổ luon.\n\nHôm nay và cả những ngày sau, lúc ào cũng phải cười tươi cho toi nhờ. Yêu yêu ấy .',
-    sender: 'Th thối um'
+    sender: 'anh chồng dzai'
   };
   const dialog = document.getElementById('greetingCard');
   const openButton = document.getElementById('openCard');
