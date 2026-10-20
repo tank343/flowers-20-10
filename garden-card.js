@@ -23,11 +23,12 @@
     return copy.textContent.trim();
   }
   let greeting = {
-    recipient: readText(recipient),
-    title: readText(title),
-    message: [...message.querySelectorAll('p')].map(readText).join('\n\n'),
-    signature: readText(signature)
+    recipient: 'Vợ thối',
+    title: 'Vườn hoa dành tặng em',
+    message: 'Nhân ngày Phụ nữ Việt Nam 20/10, chúc vợ thối luôn khỏe mạnh, hạnh phúc và có thật nhiều niềm vui. Học tập giỏi giỏi cố gắng đạt được nhiều thứ luon.\n\nVà toi cũng sẽ yêu yêu để ý qtam nhiều hơn nữa nhờ, cho i ăn tẩm bổ luon.\n\nHôm nay và cả những ngày sau, lúc ào cũng phải cười tươi cho toi nhờ. Yêu yêu ấy.',
+    signature: 'Th thôi um'
   };
+  renderGreeting();
 
   function renderGreeting() {
     recipient.textContent = greeting.recipient;
